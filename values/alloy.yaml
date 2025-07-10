@@ -1,0 +1,13 @@
+alloy:
+  config:
+    receivers:
+      hostmetrics:
+        type: hostmetrics
+    exporters:
+      prometheus:
+        endpoint: 0.0.0.0:12345
+    service:
+      pipelines:
+        metrics:
+          receivers: [hostmetrics]
+          exporters: [prometheus]
