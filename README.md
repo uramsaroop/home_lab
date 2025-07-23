@@ -1,4 +1,4 @@
-# 🏠 Home Lab Monitoring Stack (k3s + OpenTofu)
+this# 🏠 Home Lab Monitoring Stack (k3s + OpenTofu)
 
 This project sets up a fully self-hosted observability stack using:
 
